@@ -11472,6 +11472,24 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 576px) {
+  body h1 {
+    font-size: 4rem !important;
+  }
+  body h2 {
+    font-size: 2.8rem !important;
+  }
+  body h3 {
+    font-size: 1.5rem !important;
+  }
+  body p {
+    font-size: 1rem !important;
+  }
+  body h4 {
+    font-size: 1.2rem !important;
+  }
+}
+
 button {
   -webkit-transition: -webkit-transform 1s ease-in-out;
   transition: -webkit-transform 1s ease-in-out;
